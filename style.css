@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:turquoise;
+    overflow-x: hidden;
+    
+}
+
+/* section{
+    background-image: url('Media/Model-S.jpg');
+} */
+
+#bg-img{
+    /* background-image: url('Media/Model-S.jpg'); */
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    z-index: -100;
+    /* margin: 12.24% 0 12.24% 0; */
+}
+
+#mainNavbar{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#teslaLogo svg{
+    margin-left: 3vw;
+}
+#content{
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#modelName{
+    text-align: center;
+    color: #393C41;
+    font-size: 3.125vw;
+    margin-top: 7%;
+
+
+}
+
+#buttons{
+    justify-content: flex-end;
+}
+
+/* #impact-report{
+    width: 100%;
+    display: inline;    
+} */
+
+#impact-report a{
+    background-color: white;
+    color: #393C41;
+    font-size: 1vw;
+    font-weight: 500;
+    text-decoration: underline;
+    /* font-family: var(--tds-font-family--combined); */
+    font-family: 'Montserrat';
+    letter-spacing: 0.7px;
+    text-underline-offset: 2px;
+}
+
+#navbar{
+    /* background-color: pink; */
+    justify-content: center;
+    /* display: inline-block; */
+    /* width: 100%; */
+    /* display: flex;
+    flex-direction: row; */
+}
+
+#navbarRight{
+    display: inline;
+    background-color: purple;
+    /* justify-content: flex-end; */
+}
+
+a{
+    text-decoration: none;
+    color: #181B21;
+}
+
+
+
+button{
+    color: white;
+    background-color: #171A20CC;
+    border: 0;
+    padding: 0.5em 3.5em;
+    margin: 1em;
+}
+
+button:nth-of-type(2){
+    color: black;
+    background-color: #FFFFFFA6;
+    border: 0;
+}
+
+#teslaLogo img{
+    margin-left: 4vw;
+    width: 10vw;
+    display: inline;
+}
+
